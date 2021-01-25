@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">API_REST</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrar</string>
+    <string name="txt_email">Ingrese su email</string>
+    <string name="txt_password">Ingrese su password</string>
+    <string name="btn_proyectos">Proyectos</string>
+    <string name="btn_tareas">Tareas</string>
+    <string name="im_index">Listar</string>
+    <string name="im_create">Crear</string>
+    <string name="im_delete">Eliminar</string>
+    <string name="im_update">Actualizar</string>
+    <string name="btn_acept">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="S_activity_proyecto">Proyectos</string>
+    <string name="S_activity_index_proyecto">Lista</string>
+    <string name="S_activity_create_proyecto">Crear</string>
+    <string name="S_activity_update_proyecto">Actualizar</string>
+    <string name="S_activity_delete_proyecto">Eliminar</string>
+    <string name="eT_create_proyecto">Ej: Proyecto x </string>
+    <string name="eT_delete_proyecto">id de proyecto </string>
+    <string name="eT_delete_tarea">id de tarea </string>
+    <string name="eT_create_tarea">Ej: Tarea x</string>
+    <string name="sw_update_tarea">Se completó</string>
+
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="100dp"
+    tools:context="com.example.ui.parts.UpdateProyectoActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/sVProyect_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="@string/eT_delete_proyecto"
+        />
+    <EditText
+        android:id="@+id/eTProyect_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/eT_create_proyecto"/>
+
+    <Button
+        android:id="@+id/btnProyecto_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/S_activity_update_proyecto"
+        />
+
+
+</LinearLayout>

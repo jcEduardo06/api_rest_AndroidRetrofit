@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/index_proyecto"
+        android:title="@string/im_index"/>
+
+    <item
+        android:id="@+id/create_proyecto"
+        android:title="@string/im_create"/>
+
+    <item
+        android:id="@+id/delete_proyecto"
+        android:title="@string/im_delete"/>
+
+    <item
+        android:id="@+id/update_proyecto"
+        android:title="@string/im_update"/>
+
+</menu>

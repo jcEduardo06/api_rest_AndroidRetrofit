@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="100dp"
+    tools:context="com.example.ui.parts.UpdateTareaActivity">
+
+    <EditText
+        android:id="@+id/eTTarea_update_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/eT_delete_tarea"/>
+
+    <EditText
+        android:id="@+id/eTTarea_update_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/eT_create_tarea"/>
+
+    <Switch
+        android:id="@+id/swTarea_update_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sw_update_tarea"
+        />
+
+    <Button
+        android:id="@+id/btnTarea_Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/S_activity_update_proyecto"/>
+
+
+</LinearLayout>
